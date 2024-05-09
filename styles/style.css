@@ -5,3 +5,12 @@
     height: 60px;
     width: 120px;
 }
+
+/* care section */
+.care-card{
+    border: none;
+}
+.care-card-icon{
+    font-size: 42px;
+    padding-left: 145px;
+}
