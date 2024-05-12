@@ -15,11 +15,42 @@
 }
 
 
+/* Tried Too Many section */
+
+.Tried-Too-Many{
+    background-color: #3E49E5;
+    padding: 60px 0;
+}
+
+.Tried-Too-Many p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.Tried-Too-Many p span i{
+    color: white;
+}
+
+.admit-btn a{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:bold;
+    padding: 12px 18px;
+    border-radius: 10px;
+}
+
+.admit-btn p{
+    margin-top: 20px;
+}
+
+
+
 /* footer */
 footer {
     background-color: #05092B;
     color: white;
-    margin-top: 62px;
+    /* margin-top: 62px; */
     padding: 20px 0 60px 0;
 }
 
