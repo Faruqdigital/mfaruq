@@ -1,23 +1,104 @@
-
-
 /* navigation */
-.logo img{
+.logo img {
     height: 60px;
     width: 120px;
 }
 
 /* care section */
-.care-card{
+.care-card {
     border: none;
 }
-.care-card-icon{
+
+.care-card-icon {
     font-size: 42px;
     padding-left: 145px;
 }
 
 
 /* footer */
-footer{
+footer {
     background-color: #05092B;
     color: white;
+    margin-top: 62px;
+    padding: 20px 0 60px 0;
+}
+
+footer i{
+    font-size: 12px;
+}
+
+.social-links a {
+    color: white;
+    margin-right: 6px;
+    padding: 3px 6px;
+    background-color: #002552;
+    border-radius: 50px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+
+}
+
+footer .pro-btn a{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border-radius:10px 0px 50px 10px;
+    padding: 10px;
+}
+
+footer .pro-btn a:hover{
+    font-size: 17px;
+    border: dotted;
+}
+
+footer .pro-btn a i{
+    font-size: 22px;
+    color: #55ACEE;
+}
+
+footer .payment-option{
+    display: flex;
+    margin-top: 20px;
+}
+
+footer .payment-option h6{
+    margin-top: 3px;
+}
+
+footer .images{
+    /* padding-bottom: 10px; */
+    margin-left: 5px;
+}
+
+footer .images img{
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.scrool-btn{
+    float: right;
+    margin-right: 32px;
+}
+
+.scrool-btn a{
+    background-color: red;
+    color: white;
+    padding: 6px 12px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.scrool-btn a i{
+    font-size: 20px;
 }
