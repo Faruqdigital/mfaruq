@@ -1,7 +1,24 @@
+
+.header-hero-section{
+    background-color: #3E49E5;
+}
+
+.header-hero-section p{
+    font-size: 17px;
+    font-weight: 400;
+}
+
 /* navigation */
+
 .logo img {
     height: 60px;
     width: 120px;
+}
+
+.nav-font{
+    font-size: 19px;
+    font-weight:600;
+    margin-left: 16px;
 }
 
 /* care section */

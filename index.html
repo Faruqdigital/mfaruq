@@ -15,134 +15,150 @@
     <main>
 
 
-        <!-- navigation bar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary" aria-label="Offcanvas navbar large">
-            <div class="container container-fluid">
-                <!-- <a class="navbar-brand" href="/index.html">
+        <!-- header & hero section -->
+        <section class="header-hero-section ol-xxl-8 px-4">
+
+            <div class="container ">
+
+                <!-- navigation bar -->
+                <nav class="navbar navbar-expand-lg" aria-label="Offcanvas navbar large">
+                    <div class="container-fluid">
+                        <!-- <a class="navbar-brand" href="/index.html">
                 <img src="/images/logo.png" alt="logo">
             </a> -->
-                <div class="logo">
-                    <img src="/images/logo.png" alt="logo">
-                </div>
+                        <div class="logo">
+                            <img src="/images/logo.png" alt="logo">
+                        </div>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
-                    aria-labelledby="offcanvasNavbar2Label">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Offcanvas</h5>
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+                            aria-labelledby="offcanvasNavbar2Label">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Offcanvas</h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-12">
+
+                                    <li class="nav-item nav-font">
+                                        <a class="nav-link active" aria-current="page" href="#"><i
+                                                class="bi bi-house-door text-white"></i>
+                                            Home</a>
+                                    </li>
+
+                                    <li class="nav-item nav-font">
+                                        <a class="nav-link" href="#"><i class="bi bi-list"></i> Courses List</a>
+                                    </li>
+
+                                    <li class="nav-item nav-font">
+                                        <a class="nav-link" href="#"><i class="bi bi-hand-thumbs-up text-white"></i>
+                                            Docs</a>
+                                    </li>
+
+                                    <li class="nav-item nav-font">
+                                        <a class="nav-link" href="#"><i class="bi bi-arrow-up-circle text-white"></i>
+                                            Sucess</a>
+                                    </li>
+
+                                    <li class="nav-item nav-font">
+                                        <a class="nav-link" href="#">Login</a>
+                                    </li>
+
+                                    <li class="nav-item nav-font">
+                                        <a class="nav-link" href="#">Register</a>
+                                    </li>
+
+                                    <li class="nav-item nav-font">
+                                        <a class="nav-link" href="#"><i class="bi bi-map text-white"></i> Future</a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                        </div>
                     </div>
-                    <div class="offcanvas-body">
+                </nav>
 
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-12">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
 
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-door"></i>
-                                    Home</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="bi bi-list"></i> Courses List</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="bi bi-hand-thumbs-up"></i> Docs</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="bi bi-arrow-up-circle"></i> Sucess</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Login</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Register</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="bi bi-map"></i> Future</a>
-                            </li>
-
-                        </ul>
-
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <hr>
-
-        <!-- hero section -->
-        <section class="container col-xxl-8 px-4 py-5">
-
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-
-                <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="/images/hero-image.png" class="d-block mx-lg-auto mb-3 img-fluid" alt="hero-image"
-                        width="700" height="500" loading="lazy">
-                    <img src="/images/image-1.png" class="d-block mx-lg-auto mb-3 img-fluid" alt="hero-image"
-                        width="700" height="500" loading="lazy">
-                    <img src="/images/image-02.jpg" class="d-block mx-lg-auto mb-3 img-fluid" alt="hero-image"
-                        width="700" height="500" loading="lazy">
-                    <img src="/images/image-3.jpg" class="d-block mx-lg-auto mb-3 img-fluid" alt="hero-image"
-                        width="700" height="500" loading="lazy">
-                </div>
-
-                <div class="col-lg-6">
-
-                    <h2 class="fw-bold text-body-emphasis lh-2 mb-3">All You Have To Do Is...Join A To Z Marketing
-                        Masterclass Bundle By NShamimPRO 3.0 ...And Start Making $1000/M Online...With Just 3 Hours Of
-                        Time
-                        Everyday...In Next 6 To 11 Months... By Learning Updated SEO For 2024, High-Ticket Affiliate
-                        Marketing, AI Blogging, Freelance & Agency Services And Product Creations (Will Show You How
-                        Easy It
-                        Is)!</h2>
-
-                    <p class="lead">You are in a Financial Crisis, or going through a Depression due to the Unemployment
-                        or
-                        desperately looking for ways to manage/scale Extra Income beside your Job or Study
-                        ..well…listen;
-                        you only need to learn a skill to make the MONEY. Demand of online based skillsets are
-                        skyrocketed
-                        and there’s plenty of money to make! </p>
-
-                    <p class="lead">If you devote some of your time Daily, there is no way to FAIL. 1000s of our members
-                        are
-                        making their fortune online! Just imagine, you can start promoting any products to get massive
-                        commissions, build any sort of products/offers/services that attracts thousands of Buyers, live
-                        a
-                        lifestyle (good amount of foreign remittence every month, working from home with time
-                        flexibility,
-                        and all the LUXURY) that you were always dreaming of! </p>
-
-                    <h4>And the GOOD NEWS is…..Anybody Can DO This! </h4>
-
-                    <p class="lead">Infact, we are building a live project from scratch right now showing you the exact
-                        BLUEPRINT….step by step. You just have to follow the guidelines and check recommended checklists
-                        from NShamimPRO Courses. </p>
-
-                    <p class="lead">There is a Special Bundle offer with a Massive Discount running on...Get this
-                        Blueprint
-                        + All NShamimPRO Courses at Just 9999 Taka now (Heavily Discounted, but Limited number of
-                        seats.…and, 19 seats sold already!).
-                    </p>
-
-                    <h5>Like Always, we will close this offer anytime once the seats are filled up!</h5>
-
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="/images/hero-image.png" class="d-block mx-lg-auto mb-3 img-fluid rounded"
+                            alt="hero-image" width="700" height="500" loading="lazy">
+                        <img src="/images/image-1.png" class="d-block mx-lg-auto mb-3 img-fluid rounded"
+                            alt="hero-image" width="700" height="500" loading="lazy">
+                        <img src="/images/image-02.jpg" class="d-block mx-lg-auto mb-3 img-fluid rounded"
+                            alt="hero-image" width="700" height="500" loading="lazy">
+                        <img src="/images/image-3.jpg" class="d-block mx-lg-auto mb-3 img-fluid rounded"
+                            alt="hero-image" width="700" height="500" loading="lazy">
                     </div>
 
-                    <p class="lead">Your Investment/Admission to NShamimPRO Is 100% risk-free, as we will support you
-                        until
-                        you reach to your first $1000 per month…..even if it takes years, we’ll be there with you! All
-                        of
-                        our Support + Future Courses + Resources Will be FREE for you for FOREVER! </p>
+                    <div class="col-lg-6">
+
+                        <h2 class="fw-bold  lh-2 mb-3 text-white">All You Have To Do Is...Join A To Z Marketing
+                            Masterclass Bundle By NShamimPRO 3.0 ...And Start Making $1000/M Online...With Just 3 Hours
+                            Of
+                            Time
+                            Everyday...In Next 6 To 11 Months... By Learning Updated SEO For 2024, High-Ticket Affiliate
+                            Marketing, AI Blogging, Freelance & Agency Services And Product Creations (Will Show You How
+                            Easy It
+                            Is)!</h2>
+
+                        <p class="text-black mb-4">You are in a Financial Crisis, or going through a Depression due to the
+                            Unemployment
+                            or
+                            desperately looking for ways to manage/scale Extra Income beside your Job or Study
+                            ..well…listen;
+                            you only need to learn a skill to make the MONEY. Demand of online based skillsets are
+                            skyrocketed
+                            and <span class="fw-bold">there’s plenty of money to make!</span> </p>
+
+                        <p class="text-white mb-5">If you devote some of your time Daily, there is no way to FAIL. 1000s of our
+                            members
+                            are
+                            making their fortune online! Just imagine, you can start promoting any products to get
+                            massive
+                            commissions, build any sort of products/offers/services that attracts thousands of Buyers,
+                            live
+                            a
+                            lifestyle (good amount of foreign remittence every month, working from home with time
+                            flexibility,
+                            and all the <span class="fw-bold">LUXURY</span> ) that you were always dreaming of! </p>
+
+                        <h4 class="text-white mb-3">And the GOOD NEWS is…..Anybody Can DO This! </h4>
+
+                        <p class="text-white mb-3">Infact, we are building a live project from scratch right now showing you the
+                            exact
+                            BLUEPRINT….step by step. You just have to follow the guidelines and check recommended
+                            checklists
+                            from NShamimPRO Courses. </p>
+
+                        <p class="text-white mb-3">There is a Special Bundle offer with a Massive Discount running on...Get this
+                            Blueprint
+                            + All NShamimPRO Courses at Just 9999 Taka now (Heavily Discounted, but Limited number of
+                            seats.…and, 19 seats sold already!).
+                        </p>
+
+                        <h6 class="mb-5">Like Always, we will close this offer anytime once the seats are filled up!</h6>
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+                        </div>
+
+                        <p class="text-white mt-5">Your Investment/Admission to NShamimPRO Is 100% risk-free, as we will support
+                            you
+                            until
+                            you reach to your first $1000 per month…..even if it takes years, we’ll be there with you!
+                            All
+                            of
+                            our Support + Future Courses + Resources Will be FREE for you for FOREVER! </p>
+
+                    </div>
 
                 </div>
 
@@ -486,7 +502,7 @@
                 <h2 class="text-center text-white fw-bold fs-3 pt-3 pb-4">Wait! Don't Buy The Course Yet! <br>
                     Read, Learn and Do The Proper Due Dilligences First! <br>
                     See What Our Members Shared!</h2>
-    
+
                 <div class="card border border-0">
                     <div class="row gap-0 justify-content-evenly img-bg">
                         <div class="col-md-5">
@@ -525,7 +541,8 @@
             <h3 class="text-center fs-3 text-white-50 fw-bold">Getting No Support To Get Started? <br>
                 Afraid of Losing Your Hard Earned Money, Again?</h3>
             <div>
-                <h5 class="mt-4 mb-4">No worries. You are in the right place. We will help you on every phases of your Online Career
+                <h5 class="mt-4 mb-4">No worries. You are in the right place. We will help you on every phases of your
+                    Online Career
                     journey.
                     Enroll today to get –
                 </h5>
