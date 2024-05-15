@@ -49,6 +49,17 @@
     color: rgb(46, 46, 46);
 }
 
+/* course-section */
+.course-section{
+    background-color: #544970;
+    color: white;
+}
+
+.dropdown{
+    /* float: right; */
+    margin-bottom: 40px;
+}
+
 /* shared-section */
 .shared-section{
     background-color: #41454E;
