@@ -21,6 +21,13 @@
     margin-left: 16px;
 }
 
+/* a to Z bundle section */
+.bg-image:hover{
+    background-color: #236CE4;
+    transition: .5s;
+    color: white;
+}
+
 /* care section */
 .care-card {
     border: none;
