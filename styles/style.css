@@ -1,9 +1,8 @@
-
-.header-hero-section{
+.header-hero-section {
     background-color: #3E49E5;
 }
 
-.header-hero-section p{
+.header-hero-section p {
     font-size: 17px;
     font-weight: 400;
 }
@@ -15,22 +14,22 @@
     width: 120px;
 }
 
-.nav-font{
+.nav-font {
     font-size: 20px;
-    font-weight:600;
+    font-weight: 600;
     margin-left: 16px;
 }
 
 /* a to Z bundle section */
-.bg-image:hover{
+.bg-image:hover {
     background-color: #236CE4;
     transition: .5s;
     color: white;
 }
 
 /* care section */
-.care-section{
-   padding: 44px 0;
+.care-section {
+    padding: 44px 0;
     background-color: #4686ed;
     color: white;
     margin-top: 64px;
@@ -50,52 +49,73 @@
 }
 
 /* course-section */
-.course-section{
+.course-section {
     background-color: #544970;
     color: white;
 }
 
-.dropdown{
+.card-body h6 {
+    color: goldenrod;
+}
+
+.img img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.card-footer a{
+    color: white;
+    background-color: red;
+    font-size: 18px;
+    padding: 3px 5px;
+    border-radius: 30px 0px 30px 30px;
+    margin-top: 18px;
+}
+
+.dropdown {
     /* float: right; */
     margin-bottom: 40px;
 }
 
 /* shared-section */
-.shared-section{
+.shared-section {
     background-color: #41454E;
 }
 
-.img-bg{
+.img-bg {
     background-color: #41454E;
 }
 
 
 /* Tried Too Many section */
 
-.Tried-Too-Many{
+.Tried-Too-Many {
     background-color: #3E49E5;
     padding: 60px 0;
 }
 
-.Tried-Too-Many p{
+.Tried-Too-Many p {
     font-size: 18px;
     margin-bottom: 40px;
 }
-.Tried-Too-Many p span i{
+
+.Tried-Too-Many p span i {
     color: white;
 }
 
-.admit-btn a{
+.admit-btn a {
     background-color: red;
     color: white;
     text-decoration: none;
     font-size: 20px;
-    font-weight:bold;
+    font-weight: bold;
     padding: 12px 18px;
     border-radius: 10px;
 }
 
-.admit-btn p{
+.admit-btn p {
     margin-top: 20px;
 }
 
@@ -109,7 +129,7 @@ footer {
     padding: 20px 0 60px 0;
 }
 
-footer i{
+footer i {
     font-size: 12px;
 }
 
@@ -132,52 +152,52 @@ footer ul li a {
 
 }
 
-footer .pro-btn a{
+footer .pro-btn a {
     font-size: 16px;
     font-weight: bold;
     background-color: red;
     color: white;
-    border-radius:10px 0px 50px 10px;
+    border-radius: 10px 0px 50px 10px;
     padding: 10px;
 }
 
-footer .pro-btn a:hover{
+footer .pro-btn a:hover {
     font-size: 17px;
     border: dotted;
 }
 
-footer .pro-btn a i{
+footer .pro-btn a i {
     font-size: 22px;
     color: #55ACEE;
 }
 
-footer .payment-option{
+footer .payment-option {
     display: flex;
     margin-top: 20px;
 }
 
-footer .payment-option h6{
+footer .payment-option h6 {
     margin-top: 3px;
 }
 
-footer .images{
+footer .images {
     /* padding-bottom: 10px; */
     margin-left: 5px;
 }
 
-footer .images img{
+footer .images img {
     width: 24px;
     height: 24px;
     border-radius: 5px;
     margin-right: 5px;
 }
 
-.scrool-btn{
+.scrool-btn {
     float: right;
     margin-right: 32px;
 }
 
-.scrool-btn a{
+.scrool-btn a {
     background-color: red;
     color: white;
     padding: 6px 12px;
@@ -185,6 +205,6 @@ footer .images img{
     border-radius: 50px;
 }
 
-.scrool-btn a i{
+.scrool-btn a i {
     font-size: 20px;
 }
