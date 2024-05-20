@@ -258,10 +258,10 @@ footer .images img {
         column-gap: 20px;
     }
 
-    .drop-item{
+    /* .drop-item{
         display: block;
         align-items: center;
-    }
+    } */
     
 }
 
@@ -285,14 +285,14 @@ footer .images img {
 }
 
 .docs-detail-3{
-    height: 180px;
+    height: 220px;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 
 .docs-detail-4{
     margin-top: 40px;
-    height: 300px;
+    height: 330px;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
