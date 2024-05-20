@@ -1,3 +1,6 @@
+
+
+
 .header-hero-section {
     background-color: #3E49E5;
 }
@@ -15,10 +18,19 @@
 }
 
 .nav-font {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     margin-left: 16px;
 }
+
+/* nav ul li a{
+    padding-bottom: 10px;
+} */
+
+/* nav ul li:hover{
+    text-decoration: underline;
+    color: red;
+} */
 
 /* a to Z bundle section */
 .bg-image:hover {
@@ -217,4 +229,87 @@ footer .images img {
 
 .img-shadow img {
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+/* docs-option */
+
+.docs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+@media (max-width: 768px) { 
+
+    .docs{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+    }
+    
+}
+
+@media (max-width: 576px) { 
+
+    .docs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 20px;
+    }
+
+    .drop-item{
+        display: block;
+        align-items: center;
+    }
+    
+}
+
+.docs-detail{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    padding: 20px;
+    border-radius: 5px;
+    height: 450px;
+}
+
+.docs-detail h4 span, .docs-detail-3 h4 span, .docs-detail-4 h4 span{
+    color: #528EFD;
+}
+
+.docs-details{
+    row-gap: 50px;
+}
+
+.docs-detail-2{
+    height: 300px;
+}
+
+.docs-detail-3{
+    height: 180px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.docs-detail-4{
+    margin-top: 40px;
+    height: 300px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.docs-detail h6, .docs-detail-3 h6, .docs-detail-4 h6{
+    font-size: 20px;
+    background-color: #528EFD;
+    padding: 8px 15px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.docs-detail hr, .docs-detail-3 hr, .docs-detail-4 hr{
+    height: 20px;
+    color: #4686ed;
+}
+
+.docs-detail p{
+    font-size: 16px;
 }
